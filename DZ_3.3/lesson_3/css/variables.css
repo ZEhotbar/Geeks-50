@@ -1,0 +1,16 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --text-color-p: #667085;
+  --primary-color: #7F56D9;
+  --text-color: #252C32;
+  --border-color: #ccc;
+  --border-style: solid;
+  --text-p-font: 20px;
+  --text-p-width: 768px;
+  --container-max-width: 1520px;
+  --container-padding-x: 24px;
+  --header-height: 65px;
+  --radius: 6px;
+  --btn-heigth: 60px;
+}
