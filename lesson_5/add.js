@@ -13,3 +13,5 @@ if (color === "Красный") {
     console.log("Неправильный ввод :)")
     alert("Error неверный ввод")
 }
+
+alert('lol')
