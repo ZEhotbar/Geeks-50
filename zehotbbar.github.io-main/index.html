@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="header_inner">
+                    <div class="header_left">
+                        <div class="img">
+                            <img src="images/Image-_5_%20(1).webp" alt="haus">
+                        </div>
+                    </div>
+                    <div class="header_right">
+                        <form class="header_form" action="register.html" method="post">
+                        <h1>Leave a request</h1>
+                        <div class="inputs">
+                            <p>name</p>
+                            <input type="text" id="name" placeholder="Your name" required >
+                        </div>
+                        <div class="inputs">
+                            <p>Email</p>
+                            <input type="email" id="email" placeholder="you@company.com" required >
+                        </div>
+                        <div class="inputs">
+                            <p>Password</p>
+                            <input type="password" id="password" placeholder="Your password" required >
+                        </div>
+                        <div class="gender">
+                            <div class="gender_input">
+                                <p>Gender</p>
+                                <div class="gender_item">
+                                    <input type="radio" id="woman" name="gender" value="male">
+                                    <label for="woman">Woman</label>
+                                    <input type="radio" id="man" name="gender" value="male">
+                                    <label for="man">Man</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_button">
+                                <div class="button">
+                                    <button >
+                                        Select file
+                                    </button>
+                                </div>
+                        </div>
+                        <div class="policy_check">
+                            <input type="checkbox" id="policy" name="policy" value="policy">
+                            <label for="policy">
+                                You agree to friendly <a href="#">privacy policy</a>
+                            </label>
+                        </div>
+                        <div class="register">
+                            <div class="button_purple">
+                                <button class="btn_purple" type="submit" formaction="register.html" method="post" >
+                                    Register
+                                </button>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

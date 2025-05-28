@@ -1,0 +1,23 @@
+@import "mixin";
+
+body {
+  margin: 0;
+  padding: 0;
+  .container {
+    .header {
+      .logo {
+        text-align: center;
+        padding-top: 60px;
+        h1 {
+          font-size: 36px;
+        }
+      }
+      .user_input {
+        display: flex;
+        input {
+          @include castom_input
+        }
+      }
+    }
+  }
+}

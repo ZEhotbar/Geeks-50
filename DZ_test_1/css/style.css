@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body .container .header .logo {
+  text-align: center;
+  padding-top: 60px;
+}
+body .container .header .logo h1 {
+  font-size: 36px;
+}
+body .container .header .user_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .container .header .user_input input {
+  border-color: white;
+  background-color: #000000;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 440px;
+  padding: 16px;
+  border-radius: 8px;
+}

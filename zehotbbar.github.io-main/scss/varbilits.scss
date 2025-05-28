@@ -1,0 +1,41 @@
+:root {
+  --color-text: #344054 ;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-h1: #101828;
+  --color-gray: #667085;
+  --color-purple: #7F56D9;
+}
+@media (max-width: 1280px) {
+  .header_left {
+    max-width: 512px;
+  }
+  .header_right {
+    padding: 96px 28.5px !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+  }
+    .header__inner {
+      align-items: center !important;
+      flex-direction: column;
+    }
+  .header_left {
+    padding-top: 40px;
+    width: 100%;
+    max-width: 800px;
+  }
+  img {
+    height: 100%;
+    max-height: 400px;
+  }
+  .header_right {
+    padding-top: 48px !important  ;
+  }
+}
+
+$breakpoint-desktop: 1900px;
+$breakpoint-tablet: 1280px;
+$breakpoint-mobile: 768px;

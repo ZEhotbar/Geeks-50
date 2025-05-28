@@ -1,0 +1,1 @@
+let array = [42, 'my name David', ]

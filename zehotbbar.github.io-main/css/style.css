@@ -1,0 +1,135 @@
+:root {
+  --color-text: #344054 ;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-h1: #101828;
+  --color-gray: #667085;
+  --color-purple: #7F56D9;
+}
+
+@media (max-width: 1280px) {
+  .header_left {
+    max-width: 512px;
+  }
+  .header_right {
+    padding: 96px 28.5px !important;
+  }
+}
+@media (max-width: 960px) {
+  .header__inner {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header_left {
+    padding-top: 40px;
+    width: 100%;
+    max-width: 800px;
+  }
+  img {
+    height: 100%;
+    max-height: 400px;
+  }
+  .header_right {
+    padding-top: 48px !important;
+  }
+}
+.container {
+  position: relative;
+}
+.container .header_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container .header_inner .header_left img {
+  width: 100%;
+  max-width: 800px;
+  height: 854px;
+  display: block;
+}
+.container .header_inner .header_right {
+  width: 100%;
+  max-width: 512px;
+  padding: 96px 104px;
+}
+.container .header_inner .header_right .inputs {
+  padding-top: 48px;
+}
+.container .header_inner .header_right input {
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  max-width: 512px;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+}
+.container .header_inner .header_right p {
+  color: var(--color-text);
+  padding-bottom: 4px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.container .header_inner .header_right .gender {
+  padding-top: 24px;
+}
+.container .header_inner .header_right .gender p {
+  padding-bottom: 16px;
+}
+.container .header_inner .header_right .gender_item input {
+  width: 20px;
+  height: 20px;
+}
+.container .header_inner .header_right .gender label {
+  color: var(--color-text);
+  font-weight: 700;
+}
+.container .header_inner .header_button {
+  padding-top: 24px;
+}
+.container .header_inner .header_button button {
+  cursor: pointer;
+  border: 1px solid var(--color-gray);
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-weight: 700;
+  color: var(--color-text);
+}
+.container .header_inner .policy_check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 24px;
+}
+.container .header_inner .policy_check input {
+  width: 20px;
+  height: 20px;
+}
+.container .header_inner .policy_check label {
+  padding-left: 8px;
+  cursor: pointer;
+  color: var(--color-gray);
+}
+.container .header_inner .policy_check label a {
+  color: var(--color-gray);
+}
+.container .header_inner .register {
+  padding-top: 32px;
+}
+.container .header_inner .register .btn_purple {
+  cursor: pointer;
+  border: 1px solid var(--color-gray);
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: var(--color-purple);
+  font-weight: 700;
+  color: #fff;
+  width: 100%;
+}

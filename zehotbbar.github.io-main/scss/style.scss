@@ -1,0 +1,79 @@
+@import "mixin.scss";
+@import "varbilits.scss";
+
+.container {
+  position: relative;
+  .header {
+    &_inner {
+      display: flex;
+        .header_left {
+          img {
+            width: 100%;
+            max-width: 800px;
+            height: 854px;
+            display: block;
+          }
+        }
+        .header_right {
+          width: 100%;
+          max-width: 512px;
+          padding: 96px 104px;
+          .inputs {
+            padding-top: 48px;
+          }
+          input {
+            @include inputs_all;
+          }
+            p {
+              @include text_p;
+            }
+
+          .gender {
+            padding-top: 24px;
+              p {
+                padding-bottom: 16px;
+              }
+              &_item {
+                input {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+              label {
+                color: var(--color-text);
+                font-weight: 700;
+              }
+          }
+        }
+        .header_button {
+          padding-top: 24px;
+          button {
+            @include custom_btn;
+          }
+        }
+      .policy_check  {
+        display: flex;
+        padding-top: 24px;
+        input {
+          width: 20px;
+          height: 20px;
+        }
+        label {
+          padding-left: 8px;
+          cursor: pointer;
+          color: var(--color-gray);
+          a {
+            color: var(--color-gray);
+          }
+        }
+      }
+      .register {
+        padding-top: 32px;
+        .btn_purple {
+          @include custom_btn-purple;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
