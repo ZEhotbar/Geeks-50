@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41b7bb4a-6994-406e-bb23-e4f176470d7e" name="Changes" comment="" />
+    <list default="true" id="a2ad2a7a-1478-4c1c-9a3d-2f76a57a246f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../lesson_5/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_5/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zehotbbar.github.io/zehotbbar.github.io" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/zehotbbar.github.io" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -21,31 +24,31 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ZEhotbar/Geeks-50.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/ZEhotbar/zehotbbar.github.io.git&quot;,
     &quot;accountId&quot;: &quot;cd753662-f431-4dd2-9be0-180313b7c470&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2xXjlOHqRd5BGX7L2yfcig1gxtx" />
+  <component name="ProjectId" id="2xiOTUrswSKCggoi0LA8R4gSqTR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Rebasing main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -56,15 +59,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="41b7bb4a-6994-406e-bb23-e4f176470d7e" name="Changes" comment="" />
-      <created>1748091464165</created>
+      <changelist id="a2ad2a7a-1478-4c1c-9a3d-2f76a57a246f" name="Changes" comment="" />
+      <created>1748417436200</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1748091464165</updated>
-      <workItem from="1748091464788" duration="2992000" />
-      <workItem from="1748189999810" duration="1508000" />
-      <workItem from="1748192026427" duration="4365000" />
-      <workItem from="1748197604097" duration="2046000" />
+      <updated>1748417436200</updated>
+      <workItem from="1748417437040" duration="1634000" />
+      <workItem from="1748419470278" duration="5000" />
     </task>
     <servers />
   </component>
