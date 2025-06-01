@@ -68,3 +68,4 @@ for (employees of employees) {
 console.log(names);
 console.log(NEW_employees)
 console.log(employees);
+console.log("LOL");
