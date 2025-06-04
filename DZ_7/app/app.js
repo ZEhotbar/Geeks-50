@@ -46,7 +46,7 @@ let employees = [
     }
 ];
 
-employees.push({
+employees.unshift({
     name:"Олег",
     age: 40,
     gender: "мужской",
@@ -55,6 +55,8 @@ employees.push({
         mobile: "892343123899"
     }
 });
+
+console.log(employees);
 
 const NEW_employees = employees.filter(employee => employee.age > 25);
 
