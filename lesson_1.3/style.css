@@ -1,0 +1,49 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app{
+    display: flex;
+    gap: 15px;
+}
+
+.block{
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.text{
+    text-orientation: upright;
+    font-size: 5rem;
+    letter-spacing: 10px;
+    writing-mode: vertical-lr;
+}
+.buttons button{
+    background-color: grey;
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    cursor: pointer;
+}
+#red.active {
+    background-color: red !important    ;
+}
+#yellow.active {
+    background-color: yellow !important;
+}
+#green.active {
+    background-color: green !important;
+}
+

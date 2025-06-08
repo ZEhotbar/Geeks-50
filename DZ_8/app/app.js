@@ -11,7 +11,7 @@ function factorial(n) {
 
 console.log(factorial(5));
 console.log(factorial(0));
-
+console.log(factorial(10));
 
 function finMax (arr) {
     return Math.max.apply(Math, arr);
