@@ -19,3 +19,4 @@ comandBtn.onclick = click;
 
 
 
+// lol
