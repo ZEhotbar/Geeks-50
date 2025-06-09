@@ -3,8 +3,8 @@ const comandEnergy = document.getElementById("energy_span");
 const comandBtn = document.getElementById("butn_custom");
 
 function click() {
-    let mony = parseInt(comandMony.textContent);
-    let energy = parseInt(comandEnergy.textContent);
+    let mony = Number(comandMony.textContent);
+    let energy = Number(comandEnergy.textContent);
 
     if (energy >= 10) {
         energy -= 10;
