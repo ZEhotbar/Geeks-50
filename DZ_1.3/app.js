@@ -17,6 +17,3 @@ function click() {
 
 comandBtn.onclick = click;
 
-
-
-// lol
