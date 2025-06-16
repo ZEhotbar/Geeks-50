@@ -38,3 +38,5 @@ prevSlideBtn.onclick = () => {
     sliderIndex = sliderIndex < 0 ? slides.length - 1  : sliderIndex;
     updateSlider();
 }
+
+//end
