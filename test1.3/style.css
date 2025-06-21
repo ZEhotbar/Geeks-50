@@ -1,0 +1,57 @@
+html {
+    font-size: 20px ;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #222020;
+}
+body {
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button_Conter {
+    display: flex;
+    gap: 10px;
+}
+button {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #222020;
+    border: 0;
+    font-size: 1rem;
+}
+.plus {
+    border : 2px solid var(--color_one);
+    border-radius: 10px;
+}
+.muinus {
+    border : 2px solid var(--color_two);
+    border-radius: 10px;
+}
+.reset {
+    border : 2px solid var(--color_zero);
+    border-radius: 10px;
+}
+span {
+    font-size: 2rem;
+    color: aqua;
+    text-align: center;
+    margin-bottom: 20px;
+}
+:root {
+    --color_zero: #8ab3fe;
+    --color_one: green;
+    --color_two: red;
+}
+h1 {
+    color: aliceblue;
+}
