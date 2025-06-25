@@ -1,0 +1,75 @@
+html {
+    background-color: var(--main-color);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh; 
+    margin: 0; 
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper label {
+    background-color: #8b6eff25;
+    padding: 10px 30px;
+    gap: 10px;
+    font-size: 20px;
+}
+.wrapper label.right {
+    border-top-right-radius: 8px;
+}
+.wrapper label.left {
+    border-top-left-radius: 8px;
+}
+.tab_content{
+    background-color: #fff;
+    border-radius: 9px;
+    padding: 30px;
+    box-shadow: 0px 0px 4px #fff;
+    width: 30vw;
+    height: 50vh;
+    text-align: center;
+    color: var(--text_chek-color);
+    font-size: 30px;
+}
+
+@keyframes fadeEffect {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.text_p {
+  animation: fadeEffect 0.4s ease;
+}
+
+
+.wrapper label:has(input[type="radio"]:checked) { 
+    background-color: #fff; 
+    color: var(--text_chek-color);
+    box-shadow: 0px 0px 4px #fff;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+#tabs input[type="radio"] {
+    display: none;
+}
+
+:root {
+    --main-color: #c9c2e4;
+    --text-color: rgb(243, 234, 253);
+    --text_chek-color: #3e3142;
+}
