@@ -8,9 +8,10 @@ TextP.textContent = "";
 for ( const Tab of TabsBtn) {
     Tab.addEventListener("change",(event) =>{
         const id = event.target.id;
+        
             TextP.style.animation = "none";
             TextP.offsetHeight; 
-            TextP.style.animation = "fadeEffect 0.6s ease";
+            TextP.style.animation = "fadeEffect 0.8s ease";
 
 
             Image.style.animation = "none";
