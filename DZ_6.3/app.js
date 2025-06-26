@@ -8,9 +8,10 @@ TextP.textContent = "";
 for ( const Tab of TabsBtn) {
     Tab.addEventListener("change",(event) =>{
         const id = event.target.id;
-            TextP,Image.style.animation = "none";
-            TextP,Image.offsetHeight; 
-            TextP,Image.style.animation = "fadeEffect 0.4s ease";
+            cosnr 
+            Image.style.animation = "none";
+            Image.offsetHeight; 
+            Image.style.animation = "fadeEffect 0.4s ease";
         switch(id) {
             case "Chrom":
                 Image.alt  = "Chrom"
