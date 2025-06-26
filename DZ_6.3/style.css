@@ -51,10 +51,12 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-.text_p {
-  animation: fadeEffect 0.4s ease;
+.text_p .image{
+    animation: fadeEffect 0.4s ease;
 }
-
+p {
+    text-align: left;
+}
 
 .wrapper label:has(input[type="radio"]:checked) { 
     background-color: #fff; 
@@ -72,4 +74,21 @@ body {
     --main-color: #c9c2e4;
     --text-color: rgb(243, 234, 253);
     --text_chek-color: #3e3142;
+}
+.tab_content .image {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.tab_content .image img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text_p::after {
+  content: "";
+  display: block;
+  clear: both;
 }
