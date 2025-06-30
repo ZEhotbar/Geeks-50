@@ -13,7 +13,7 @@ for ( const Tab of TabsBtn) {
             TextP.offsetHeight; 
             TextP.style.animation = "fadeEffect 0.8s ease";
 
-
+            
             Image.style.animation = "none";
             Image.offsetHeight; 
             Image.style.animation = "fadeEffect 0.4s ease";

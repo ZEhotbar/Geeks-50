@@ -1,0 +1,39 @@
+html {
+    background-color: #313131;
+}
+h1 {
+    color: beige;
+    font-size: 60px;
+
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    border-radius: 9px;
+    background-color: #251616;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.limit { 
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    width: 100px;
+    gap: 20px;
+}
+textarea {
+    border-radius: 10px;
+}
+.error { 
+    background-color: red;
+    color: red;
+    
+}

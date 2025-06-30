@@ -70,25 +70,25 @@ p {
     display: none;
 }
 
-:root {
-    --main-color: #c9c2e4;
-    --text-color: rgb(243, 234, 253);
-    --text_chek-color: #3e3142;
-}
 .tab_content .image {
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .tab_content .image img {
-  width: 150px;
-  height: auto;
-  border-radius: 8px;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
 }
 
 .text_p::after {
   content: "";
   display: block;
   clear: both;
+}
+:root {
+    --main-color: #c9c2e4;
+    --text-color: rgb(243, 234, 253);
+    --text_chek-color: #3e3142;
 }
